@@ -1,0 +1,76 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+.m-container{ width:100%;
+    height: 100vh;
+    position: relative;
+}
+.profil{ position: absolute;
+    top: 10%;
+    left: 6%;
+    height: 540px;
+    width: 450px;
+    border-radius: 30px;
+    background-image: url(img/ba6ea9b1-52c8-4e77-b606-f75db492cb39.jpg);
+    background-size: cover;
+}
+.m-text{ position: absolute;
+    right: 15%;
+    top: 20%;
+    height: 450px;
+    width: 600px;
+}
+.m-text h1{ font-weight: 400;
+    font-size: 50px;
+    color: orange;
+    position: relative;
+    left:6%;
+}
+.m-text span{
+    position: absolute;
+    left: 11%;
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.m-text p{ position: absolute;
+    bottom: 41%;
+    font-size: 22px;
+    color: white;
+    margin-left: 53px;   
+    font-family: 'Open Sans', sans-serif;
+}
+.m-text button{ 
+    position: absolute;
+    bottom: 7%;
+    padding: 4px;
+    border-radius: 34px;
+    background: #212529;
+    border: 1px solid #ffb400 ;
+    margin-left: 80px;
+}
+.m-text button h1{
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    padding-right: 90px;
+
+}
+.m-icon{ 
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    height: 30px;
+    width: 30px;
+    color: orange;
+    padding: 10px;  
+}
